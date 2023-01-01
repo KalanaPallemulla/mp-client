@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+
+@font-face {
+  font-family: "pacifico";
+  src: url("./utils/fonts/Pacifico/Pacifico-Regular.ttf");
+  font-weight: 100;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "mulish";
+  src: url("./utils/fonts/Mulish/Mulish-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "inspiration";
+  src: url("./utils/fonts/Inspiration/Inspiration-Regular.ttf");
+}
+
+@font-face {
+  font-family: "serifPro";
+  src: url("./utils/fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf");
 }
