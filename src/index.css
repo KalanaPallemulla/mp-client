@@ -24,3 +24,13 @@
   font-family: "serifPro";
   src: url("./utils/fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf");
 }
+
+@font-face {
+  font-family: "yanone";
+  src: url("./utils/fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Regular.ttf");
+}
+
+@font-face {
+  font-family: "satisfy";
+  src: url("./utils/fonts/Satisfy/Satisfy-Regular.ttf");
+}

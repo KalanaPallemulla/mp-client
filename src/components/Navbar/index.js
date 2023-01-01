@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const isLocation = (path) => path === location.pathname;
   return (
-    <div className="fixed top-0 z-40 w-screen md:px-20">
+    <div className="bg-white fixed top-0 z-40 w-screen md:px-20">
       <div className="h-16 flex items-center justify-between">
         <img
           className="h-8 w-8 ml-8"

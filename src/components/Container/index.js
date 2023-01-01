@@ -5,7 +5,7 @@ const Container = ({ children }) => {
   return (
     <div>
       <Navbar />
-      <div className="mt-16">{children}</div>
+      <div className="mt-24 md:px-40 px-8">{children}</div>
     </div>
   );
 };

@@ -7,6 +7,8 @@ module.exports = {
       inspiration: ["Inspiration", "cursive"],
       mulish: ["Mulish", "sans-serif"],
       serifPro: ["Source Serif Pro", "serif"],
+      yanone: ["Yanone Kaffeesatz", "sans-serif"],
+      satisfy: ["Satisfy", "cursive"],
     },
     extend: {},
   },
