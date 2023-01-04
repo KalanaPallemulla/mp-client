@@ -18,6 +18,7 @@ const Home = () => {
       <Header
         topText="Welcome to Proposal Paradise"
         middleText="Let's find someone for you.."
+        search={true}
       />
 
       <div className="md:grid md:grid-cols-3 sm:grid-cols-4 mt-8">
@@ -37,7 +38,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:block sm:block lg:p-20 fixed right-0 w-1/3 sm:-mt-32  ">
+        <div className="hidden md:block sm:block lg:p-20 fixed right-0 w-1/3 sm:-mt-20 ">
           <h1 className="font-pacifico text-green-400 text-xl">
             You can post your add here
           </h1>

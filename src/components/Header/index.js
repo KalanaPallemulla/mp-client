@@ -6,7 +6,7 @@ import {
   AiFillTwitterCircle,
 } from "react-icons/ai";
 
-const Header = ({ topText, middleText }) => {
+const Header = ({ topText, middleText, search = false }) => {
   return (
     <div className="w-full flex md:justify-around flex-col md:flex-row">
       <div>
@@ -39,15 +39,17 @@ const Header = ({ topText, middleText }) => {
           </div>
         </div>
       </div>
-      <div className="flex space-x-4">
-        <input
-          className="mt-4 md:mt-0 md:w-96 w-full px-4 py-4 rounded-full border border-orange-500 focus:outline-none focus:border-orange-500 focus:ring-orange-500 block   focus:ring-1  placeholder:font-pacifico font-pacifico placeholder:text-xl text-xl  checked:animate-none text-gray-500"
-          placeholder="Search"
-        />
-        <button className="px-6 py-4 border border-orange-500 rounded-full text-orange-500 hover:bg-orange-500 hover:text-white font-pacifico  text-xl animate-pulse hover:animate-none">
-          Search
-        </button>
-      </div>
+      {search && (
+        <div className="flex space-x-4">
+          <input
+            className="mt-4 md:mt-0 md:w-96 w-full px-4 py-4 rounded-full border border-orange-500 focus:outline-none focus:border-orange-500 focus:ring-orange-500 block   focus:ring-1  placeholder:font-pacifico font-pacifico placeholder:text-xl text-xl  checked:animate-none text-gray-500"
+            placeholder="Search"
+          />
+          <button className="px-6 py-4 border border-orange-500 rounded-full text-orange-500 hover:bg-orange-500 hover:text-white font-pacifico  text-xl animate-pulse hover:animate-none">
+            Search
+          </button>
+        </div>
+      )}
     </div>
   );
 };

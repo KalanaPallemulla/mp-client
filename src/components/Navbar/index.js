@@ -39,7 +39,9 @@ const Navbar = () => {
               <FcBusinessman />
             </div>
           ) : (
-            <div className="font-pacifico text-orange-600 text-sm">join</div>
+            <Link to="/join" className="font-pacifico text-orange-600 text-sm">
+              join
+            </Link>
           )}
           <div className="-mr-2 flex md:hidden">
             <button

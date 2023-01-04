@@ -26,6 +26,7 @@ const Proposals = () => {
       <Header
         topText="Let's discover.."
         middleText="We provide you so many proposals..."
+        search={true}
       />
       <div
         className="md:grid md:grid-cols-12 mt-8"
