@@ -48,7 +48,7 @@ const CreateAccount = () => {
           topText="Let's join to Proposal Paradise"
           middleText="We will suggest you the best proposals"
         />
-        <div className="flex h-full -mt-24 justify-center">
+        <div className="flex h-full md:-mt-24 justify-center">
           <div className="m-auto">
             <h1 className="text-3xl font-satisfy font-bold text-orange-600 text-center">
               Join
